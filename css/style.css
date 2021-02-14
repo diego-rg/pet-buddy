@@ -4,7 +4,8 @@ body {
 
 /*NavBar*/
 .navbar {
-background-color: #6A84D9;
+    opacity: 0.5;
+    background-color: #6A84D9;
 }
 
 .navbar-brand {
@@ -37,7 +38,7 @@ background-color: #6A84D9;
 
 #section-adopt button {
     color: white;
-    background-color: #6A84D9;
+    background-color: #a5b5e7;
     border: 1px solid white;
 }
 
@@ -47,16 +48,20 @@ background-color: #6A84D9;
 
 /*Footer*/
 footer {
+    opacity: 0.5;
     color: white;
     background-color: #6A84D9;
 }
 
 /*Fix for font size in small screens*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .navbar-brand {
         font-size: 1.5rem!important;
     }
     .navbar a {
         font-size: 1rem;
+    }
+    #section-adopt {
+        height: auto!important;
     }
   }
