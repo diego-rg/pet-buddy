@@ -1,0 +1,62 @@
+body {
+    background-color: #e7c3d8;
+}
+
+/*NavBar*/
+.navbar {
+background-color: #6A84D9;
+}
+
+.navbar-brand {
+    color: #f5d9d5!important;
+    font-size: 2rem!important;
+    font-family: 'Mali', cursive;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+}
+
+.navbar a:hover {
+    color: #f5d9d5!important;
+}
+
+/*Main content*/
+.section-image {
+    background-color: #f5d9d5;
+}
+
+.section-image img {
+    padding: 15%;
+}
+
+.img-small {
+    width: 100px;
+    height: auto;
+}
+
+#section-adopt button {
+    color: white;
+    background-color: #6A84D9;
+    border: 1px solid white;
+}
+
+#section-adopt button:hover {
+    transform: scale(1.1);
+}
+
+/*Footer*/
+footer {
+    color: white;
+    background-color: #6A84D9;
+}
+
+/*Fix for font size in small screens*/
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem!important;
+    }
+    .navbar a {
+        font-size: 1rem;
+    }
+  }
