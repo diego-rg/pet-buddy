@@ -64,4 +64,10 @@ footer {
     #section-adopt {
         height: auto!important;
     }
+    p {
+        font-size: 0.9rem;
+    }
+    #section-home {
+        padding-top: 10%;
+    }
   }
