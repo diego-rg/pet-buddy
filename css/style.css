@@ -28,7 +28,7 @@ body {
 }
 
 .section-image img {
-    padding: 15%;
+    padding: 10%;
 }
 
 .img-small {
@@ -67,7 +67,7 @@ footer {
     p {
         font-size: 0.9rem;
     }
-    #section-home {
-        padding-top: 10%;
+    form {
+        font-size: 0.9rem;
     }
   }
